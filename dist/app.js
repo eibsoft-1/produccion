@@ -29,7 +29,7 @@ app.use((0, _cookieParser["default"])());
 //ROUTES // PONER ./ SIGNIFICA DESDE LA RAIZ, O SEA TODA LA RUTA ACTUAL DE ESTE ARCHIVO
 app.get('/', function (req, res) {
   res.send({
-    message: 'Bienvenido a mi aplicacion'
+    message: 'Bienvenido a mi aplicacion con RAILWAY'
   });
 });
 app.use('/api', _users["default"]);
